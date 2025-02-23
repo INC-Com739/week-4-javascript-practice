@@ -53,7 +53,8 @@
   <p>POP QUIZ: what is the value at x=20?</p>
   <pre>
     f(20) = 20 * .25 + 5
-    f(20) = ?
+    f(20) = 5 + 5
+    f(20) = 10
   </pre>
 
   <p>I hope you can see the power of functions here!</p>
@@ -178,6 +179,19 @@ document.write(z5);
   <p> If you've gotten this far, try and do one better! The ice cream shop is lowering it's prices to $1.50 a cone.
     Write a function that will calculate the cash that the shop has earned after x days. Then caclulate that for 5, 10,
     15, 21 and 1001 days.</p>
+    <pre>
+      h(x) = 1.5x + 5
+    </pre>
+  <div class="graph-container">
+    <iframe src="https://www.desmos.com/calculator/tx5fmm5tne" width="300" height="200"
+      style="border: 1px solid #ccc" frameborder=0></iframe>
+  </div>
+  <p> At x=0</p>
+  <pre>
+    h(0) = 0 * 1.5 + 5
+    h(0) = 5
+  </pre>
+
   <script>
     let b1;
     let b2;
@@ -233,7 +247,71 @@ document.write(z5);
   <h4>TODO: You try this one!</h4>
   <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
     results of the functions to the page. </p>
-  
+  <pre>
+    h(x) = 2.5x + 5
+
+    <p>
+      At x = 0
+    </p>
+   <pre>
+    h(0) = 0 * 2.5 + 5
+    h(0) = 5
+   </pre>
+  </pre>
+  <div class="graph-container">
+    <iframe src="https://www.desmos.com/calculator/sp0plmdqwl" width="300" height="200"
+      style="border: 1px solid #ccc" frameborder=0></iframe>
+  </div>
+
+  <script>
+    let c1;
+    let c2;
+    let c3;
+
+    function i(x) {
+      return x * 2.5 + 5;
+    }
+  </script>
+  <p>
+    For x = 5...
+    i(x) =
+    <script>
+      c1 = i(5);
+      document.write(c1);
+    </script>
+  </p>
+  <p>
+    For x = 10...
+    i(x) =
+    <script>
+      c2 = i(10);
+      document.write(c2);
+    </script>
+  </p>
+  <p>
+    For x = 15...
+    i(x) =
+    <script>
+      c3 = i(15);
+      document.write(c3);
+    </script>
+  </p>
+  <p>
+    For x = 21...
+    i(x) =
+    <script>
+      c4 = i(21);
+      document.write(c4);
+    </script>
+  </p>
+  <p>
+    For x = 1001...
+    i(x) =
+    <script>
+      c5 = i(1001);
+      document.write(c5);
+    </script>
+  </p>
 
 
   <h4>Bonus:</h4>
